@@ -1,0 +1,252 @@
+
+html,body,ul,li,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,img,dt,dd,dl,figure{
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+ul,ol,li{
+    list-style: none;
+}
+a,u{
+    text-decoration: none;
+}
+i,em{
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+.clearfix{
+    zoom:1;
+}
+input, select {
+    border:0;
+}
+.clearfix:after{
+    content: ".";
+    height: 0;
+    clear: both;
+    display: block;
+    overflow:hidden;
+    visibility: hidden;
+}
+body {
+    background: #f9f9f9;
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+}
+.wrap {
+    margin-top:60px;
+}
+.layout{
+    width: 854px;
+    margin: 0 auto;
+    background:#fff;
+    padding-bottom: 10px;
+}
+#main_container{
+    padding: 0px 34px 0;
+}
+
+.milogo{
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    cursor: default;
+    margin-bottom:40px;
+}
+.title-item{
+    text-align: center;
+}
+.title_big{
+    font-size: 30px;
+    line-height: 1.5;
+    color: #333;
+}
+.regbox_content{
+    padding-bottom: 15px;
+}
+.regbox {
+    margin: 0 auto;
+    padding: 30px 0;
+    color:#666; 
+    width: 332px;
+    padding: 30px 0;
+    line-height: 20px;
+}
+.phone_step{
+  width: 332px; 
+}
+
+.regbox .tit_normal {
+    padding-bottom: 5px;
+    color: #333;
+}
+.regions_list{
+    padding-bottom: 15px;
+    position: relative;
+   
+}
+.select_regions_inp{
+    height: 40px;
+    padding-left: 14px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+}
+.result-select-regions {
+    float: left;
+    width: 275px;
+    border-right: 1px solid #e8e8e8;
+}
+ .select_regions_inp i{
+    padding-right: 10px;
+    padding-left:10px;
+    color: #e8e8e8;
+ }
+
+/* 注册国家选择 */
+ .country-container-panel{
+    border-top: 1px solid #e8e8e8;
+    background: #fff;
+     position: absolute;
+     top:40PX;
+     left:0px; 
+    width: 329px;
+    height:240px;
+    overflow: auto; 
+ }
+ .record{
+    border: 1px solid #e8e8e8;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+ }
+ .list .record:hover{
+     background: #e8e8e8;
+ }
+ .country-container-panel .header{
+    background: #fcdecc;
+    padding-left: 10px;
+    line-height: 30px;
+    color: #ef5b00 !important;
+}
+/* 注册国家选择end */
+
+ .region_tip_text {
+     margin-top:2px;
+    margin-bottom: 15px;
+}
+/* 注册号码地区选择 */
+.listwrap_inside {
+    width: 332px;
+    height: 70px;
+}
+.select_btn{
+    float: left;
+    height:40px;
+    width: 72px;
+    border:1px solid  #e8e8e8;
+    margin-bottom: 2px;
+    background: #fff;
+}
+ 
+.labelbox_inp{
+    float: left;
+    height: 36px;
+    width: 256px;
+    border:1px solid  #e8e8e8;
+    border-left:none;
+    margin-bottom: 2px;
+}
+/* 错误提示 */
+.err_tip{
+    display: none;
+    color: #ff6700;
+   }
+.phone-panel{
+    position: absolute;
+    top:145PX;
+    left:0px; 
+    border-top:none; 
+}
+.record-code{
+    float:right;
+}
+
+.submit-step{
+    background-color: #ff6700;
+    margin-top: 20px;
+    border: 1px solid rgba(186,186,186,0.3);
+    color: #fff;
+    width: 329px;
+    height: 42px;
+    margin: 0 auto;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    overflow: hidden;
+}
+/* 注册部分end */
+.privacy_box{
+    cursor: pointer;
+    text-align: center;
+    padding-top:15px;
+}
+.privacy_box .n_checked a {
+    color: #333;
+    font-weight: bold;
+}
+.n_checked {
+    padding: 10px 0;
+    cursor: pointer;
+    display: inline-block;
+}
+.privacy_box .n_checked i{
+    font-size:20px;
+    color: #ff6700;
+}
+
+
+/* register footer */
+.login-footer {
+    margin-top: 50px;
+    height: 80px;
+    text-align: center;
+     color: #757575;
+}
+.login-footer a{
+    color: #757575;
+    padding: 5px;
+    font-size:14px;
+}
+.footer-list{
+    height: 18.67px;
+    line-height: 18.67px;
+    text-align: center;
+}
+.footer-list li{
+    display:inline;
+    margin-right:5px;
+}
+
+.footer-list li  a{
+    padding: 0 10px;
+}
+
+.nf-intro {
+    padding: 10px;
+}

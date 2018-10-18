@@ -1,0 +1,238 @@
+html,body,ul,li,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,img,dt,dd,dl,figure{
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+ul,ol,li{
+    list-style: none;
+}
+a,u{
+    text-decoration: none;
+}
+i,em{
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+
+input{
+    border:0;
+}
+fieldset{
+    border: 0;
+}
+.clearfix{
+    zoom:1;
+}
+.clearfix:after{
+    content: ".";
+    height: 0;
+    clear: both;
+    display: block;
+    overflow:hidden;
+    visibility: hidden;
+}
+
+body{
+    font-size: 14px;
+    color: #757575;
+    font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+}
+.login-logo-panel a{
+    display: block;
+    margin: 0 auto;
+    width: 1130px;
+    padding: 10px 0 10px 0;  
+}
+/* 登录注册 start */
+.login-banner-panel{
+    position: relative;
+    min-width:1130px;
+    overflow: hidden;
+    height: 540px;
+    background:url(../images/login-banner.jpg)no-repeat center center;   
+}
+.banner-panel-wrapper{
+    position: relative;
+    width: 1130px;
+    height: 540px;
+    margin: 0 auto;
+}
+  
+.login-form a:hover {
+   color: #f56600;
+}
+.login-form{
+    position: absolute;
+    top:30px;
+    right: 0px;
+    z-index: 100;
+    width: 410px;
+    height: 486px;
+    text-align: center;
+    font-size: 14px;
+    background:#ffffff;  
+}
+.login-form.inp-hint{
+    display:none;
+    margin-top:2px;
+    width: 322px;
+    margin-left: 36px;
+    color: #f56600;
+    position: absolute;
+    background:#dddddd;
+}
+.load {
+    padding: 27px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    color:#666;
+}
+.line{
+    margin: 0 35px 0 42px;
+    color: #e0e0e0; 
+}
+
+
+.load .loadcode-now{
+    color: red;
+} 
+
+.login-form input{
+    border: 1px solid  #dddddd;
+    width: 344px;
+    height: 40px;
+    margin-top:10px;
+}
+ 
+.btn{
+    width: 346px;
+    height: 50px;
+    font-size: 20px;
+    line-height:50px;
+    color:white;
+    background:#ef5b00;
+    margin-top: 14px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.operation{
+     margin-left:30px; 
+     margin-bottom: 20px;
+    font-size:14px;
+    width: 346px;
+    height: 50px;
+}
+ .regist{
+     line-height: 50px;
+     text-align: center;
+     float: left;  
+}
+.regist>a{
+    color: #ef5b00;
+}
+.regist span{
+    color: #ef5b00;
+}
+.operate{
+    line-height: 50px;
+     text-align: center;
+    float:right;
+    color: #999;
+}
+.operate>a{
+    color: #999;
+}
+
+
+/* 其它方式登录 */
+.other_login_type{ 
+    width: 100%;
+    text-align: center;
+}
+.login_type_tit{
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    font-size: 14px;
+    color:#e0e0e0;
+}
+
+.oth_type_links {
+    padding-top: 3px;
+    padding-top: 10px;
+    text-align: center;
+}
+  
+.oth_type_links a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 17px;
+}
+.oth_type_links a i{
+    font-size:28px;
+}
+.icons_type_qq{
+    color: #0288d1;
+}
+.icons_type_weibo{
+    color:#d32f2f;
+}
+.icons_type_zhifubao{
+    color:#00aaee;
+}
+.icons_type_weichat{
+    color:#00d20d;
+}
+/* 扫码登录 */
+.ercode_box .code_img{
+    margin-top:100px;
+}
+.custom_sub_txt {
+    padding-top: 14px;
+    font-size: 14px;
+    display: block;
+}
+.custom_sub_txt span{
+    padding: 0 5px;
+    color: #ff6700;
+}
+
+/* 登录注册 end */
+
+/* login footer */
+.login-footer {
+    margin-top: 50px;
+    height: 80px;
+    text-align: center;
+     color: #757575;
+}
+.login-footer a{
+    color: #757575;
+    padding: 5px;
+    font-size:14px;
+}
+.footer-list{
+    height: 18.67px;
+    line-height: 18.67px;
+    text-align: center;
+}
+.footer-list li{
+    display:inline;
+    margin-right:5px;
+}
+
+.footer-list li  a{
+    padding: 0 10px;
+}
+
+.nf-intro {
+    padding: 10px;
+}

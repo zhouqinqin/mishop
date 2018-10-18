@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/login.css">;
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_864188_jakwcuw6jwq.css">
+</head>
+
+<body>
+    <div class="login-logo-panel">
+        <a href=""><img src="../images/login-logo_03.png" alt=""></a>
+    </div>
+    <!-- 登录注册 start-->
+    <div class="login-banner-panel">
+        <a class="banner-panel-img" href=""></a>
+        <div class="banner-panel-wrapper">
+            <!-- 账号登录start -->
+            <form action="" class="login-form acc" onsubmit="return false">
+                <div class="load">
+                    <a class="loadcode-now idlogin">账号登录</a>
+                    <span class="line">|</span>
+                    <a class="loadMa">扫码登录</a>
+                </div>
+                <input type="text" placeholder="邮箱/手机号码/小米ID" name="username"><br>
+                <!-- <p class="inp-hint text">"用户名不能为空"</p>
+                <p class="inp-hint error">"用户名输入不正确"</p> -->
+                <input type="password" placeholder="密码" class="password" name="password" data-error=><br>
+                <!-- <p class="inp-hint pass">"密码不能为空"</p> -->
+                <button class="btn" name="btn">登录</button>
+                <div class="operation">
+                    <div class="regist">
+                        <a href="">手机短信登录</a><span>/</span><a href="register.html">注册</a>
+                    </div>
+                    <div class="operate">
+                        <a id="remember" href="register.html">立即注册</a>
+                        <span>|</span>
+                        <a id="forget">忘记密码</a>
+                    </div>
+                </div>
+
+                <!-- 其它方式登录 -->
+                <div class="other_login_type">
+                    <fieldset class="login_type_tit">
+                        <legend align="center" class="oth_type_txt">其他方式登录</legend>
+                    </fieldset>
+                    <div class="oth_type_links">
+                        <a href="" class="icons_type_qq"><i class="iconfont icon-qq1"></i></a>
+                        <a href="" class="icons_type_weibo"><i class="iconfont icon-weibo"></i></a>
+                        <a href="" class="icons_type_zhifubao"><i class="iconfont icon-zhifubao"></i></a>
+                        <a href="" class="icons_type_weichat"><i class="iconfont icon-weixin"></i></a>
+                    </div>
+                </div>
+            </form>
+            <!-- 账号登录end -->
+            <!-- 扫码登录start -->
+            <form action="" class="login-form sss" onsubmit="return false" style="display:none">
+                <div class="load">
+                    <a class="loadcode">账号登录</a>
+                    <span class="line"></span>
+                    <a class="loadCode-now codelogin">扫码登录</a>
+                </div>
+                <div class="ercode_pannel">
+                    <a class="code_close" title="关闭" id="qrcode-close"><span class="icon_code_close"></span></a>
+                    <div class="ercode_box">
+                        <div class="code_img">
+                            <img src="../images/code.png" alt="">
+                        </div>
+                        <div class="custom_sub_txt">
+                            <p id="custom-qr-name">使用<span>小米商城APP</span>扫一扫</p>
+                            <p>小米手机可打开「设置」&gt;「小米帐号」扫码登录</p>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- 扫码登录end -->
+        </div>
+    </div>
+    <!-- 登录注册 end-->
+
+    <!-- login底部 start -->
+    <div class="login-footer">
+        <ul class="footer-list">
+            <li><a href="http://">繁体</a></li>
+            <span>|</span>
+            <li><a href="http://">简体</a></li>
+            <span>|</span>
+            <li><a href="http://">English</a></li>
+            <span>|</span>
+            <li><a href="http://">常见问题</a></li>
+            <span>|</span>
+            <li><a href="http://">隐私政策</a></li>
+        </ul>
+        <p class="nf-intro">
+            小米公司版权所有-京ICP备10046444-
+            <a class="beian-record-link" target="_blank" href="http://">
+                <span><img src="../images/login-footer-e.png"></span>
+                京公网安备11010802020134号
+            </a>
+            -京ICP证110507号
+        </p>
+    </div>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script>
+        login.init('.login-form');
+        // verification.init();
+       // var _cookie = new OperationCookie();
+        //alert(_cookie.getItem("loginMessage"));
+    </script>
+
+
+</body>
+
+</html>
